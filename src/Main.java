@@ -65,9 +65,19 @@ class GFG {
     }
 
     static void state6(char c) {
-        if (c == '1') dfa = 1;
+        if (c == '1') dfa = 7;
         else if (c == '0') dfa = 6;
         else if (c == 'q') dfa = 1;
+        else dfa = -1;
+    }
+
+    static void state7(char c) {
+        if (c == '1') dfa = 8;
+        else dfa = -1;
+    }
+
+    static void state8(char c) {
+        if (c == 'd') dfa = 1;
         else dfa = -1;
     }
 
@@ -95,6 +105,12 @@ class GFG {
                     break;
                 case 6:
                     state6(str[j]);
+                    break;
+                case 7:
+                    state7(str[j]);
+                    break;
+                case 8:
+                    state8(str[j]);
                     break;
                 default:
                     return 0;
