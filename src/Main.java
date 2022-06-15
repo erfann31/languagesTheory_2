@@ -9,8 +9,6 @@ class GFG {
         String input = sc.nextLine();
         if (isAccepted(input.toCharArray()) == 1) System.out.println("ACCEPTED");
         else System.out.println("NOT ACCEPTED");
-        System.out.println(dfa);
-        System.out.println(i);
     }
 
     static void start(char c) {
