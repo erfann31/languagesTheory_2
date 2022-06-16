@@ -1,7 +1,7 @@
 # languagesTheory_2
 این پروژه شامل چندین بخش زیر است:
 ## Machin
-![Untitled](https://user-images.githubusercontent.com/75057732/173904078-ef94cb8c-f0b3-4b33-b7ac-6c94213d1f41.jpg)
+![Untitled](https://user-images.githubusercontent.com/75057732/173968035-695e9228-3be3-413a-9a52-e0a2dc77bb5c.jpg)
 ## Grammer
 گرامر بدست آمده از ماشین::<br />
 A#0A|1B<br />
