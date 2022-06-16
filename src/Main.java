@@ -212,7 +212,6 @@ class Main {
     static void state4(char c) {
         if (c == '1') dfa = 5;
         else if (c == '0') dfa = 2;
-        else if (c == 'q') dfa = 1;
         else dfa = -1;
     }
 
