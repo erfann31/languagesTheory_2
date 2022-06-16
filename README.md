@@ -1,6 +1,6 @@
 # languagesTheory_2
 این پروژه شامل چندین بخش زیر است:
-## Machin
+## Machine
 ![Untitled](https://user-images.githubusercontent.com/75057732/173968035-695e9228-3be3-413a-9a52-e0a2dc77bb5c.jpg)
 ## Grammer
 گرامر بدست آمده از ماشین:<br />
