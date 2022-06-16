@@ -2,7 +2,7 @@
 این پروژه شامل چندین بخش زیر است:
 ## Machine
 ![Untitled](https://user-images.githubusercontent.com/75057732/173968035-695e9228-3be3-413a-9a52-e0a2dc77bb5c.jpg)
-## Grammer
+## Grammar
 گرامر بدست آمده از ماشین:<br />
 A#0A|1B<br />
 B#0A|1C<br />
