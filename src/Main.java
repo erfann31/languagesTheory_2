@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class TL2 {
+class Main {
     static int dfa = 0;
     static int i = 0;
     static ArrayList<Product> products = new ArrayList<>();
@@ -25,7 +25,6 @@ class TL2 {
             products.add(product);
         }
         myReader.close();
-
         File myObj1 = new File("history.txt");
         Scanner myReader1 = new Scanner(myObj1);
         while (myReader1.hasNextLine()) {
@@ -284,10 +283,8 @@ class TL2 {
                     return 0;
             }
         }
-        if (dfa == 0 && i == 0)
-            return 1;
-        else
-            return 0;
+        if (dfa == 0 && i == 0) return 1;
+        else return 0;
     }
 }
 
@@ -313,4 +310,3 @@ class Product {
     }
 
 }
-
